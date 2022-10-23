@@ -106,6 +106,11 @@ h3 {
   cursor: pointer;
   border: none;
 }
+.order-button:hover,
+.order-button:focus {
+  color: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+}
 .filter-button {
   color: var(--title-text-color);
   background-color: #f5f4fa;
@@ -123,6 +128,10 @@ h3 {
 .filter-button:hover,
 .filter-button:focus {
   color: #ffffff;
+  background-color: var(--accent-color);
+}
+.filter-button.active {
+  color: #FFFFFF;
   background-color: var(--accent-color);
 }
 
@@ -207,21 +216,23 @@ h3 {
 }
 
 /* Adress */
-.section {
+.footer {
   background-color: #2f303a;
 }
 .address-list .address-link {
   color: #ffffff;
-  font-weight: 400;
   font-size: 14px;
   line-height: 1.17;
 }
 .address-list .contact-link {
   color: rgba(255, 255, 255, 0.6);
-  font-weight: 400;
   font-size: 14px;
   line-height: 1.17;
   text-decoration: none;
+}
+.address-list .address-link:hover,
+.address-list .address-link:focus {
+  color: var(--accent-color);
 }
 .address-list .contact-link:hover,
 .address-list .contact-link:focus {

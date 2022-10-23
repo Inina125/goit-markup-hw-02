@@ -143,6 +143,7 @@ ul {
   font-size: 44px;
   line-height: 1.36;
   text-align: center;
+  text-transform: uppercase;
 }
 
 /* Features */
@@ -218,7 +219,7 @@ ul {
   background-color: #2f303a;
 }
 .address-list .address-link {
-  color: var(--secondary-text-color);
+  color: var(--primary-white-color);
   font-size: 14px;
   line-height: 1.17;
 }

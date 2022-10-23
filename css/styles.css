@@ -103,6 +103,7 @@ h3 {
   height: 50px;
   left: 692px;
   top: 430px;
+  cursor: pointer;
   border: none;
 }
 .filter-button {
@@ -116,6 +117,7 @@ h3 {
   left: 593px;
   top: 174px;
   font-family: inherit;
+  cursor: pointer;
   border: none;
 }
 .filter-button:hover,
@@ -148,7 +150,6 @@ h3 {
 }
 .features-list .text {
   color: #757575;
-  font-weight: 400;
   font-size: 14px;
   line-height: 1.7;
 }
@@ -164,7 +165,7 @@ h3 {
 
 /* Team */
 .team {
-    background-color: #F5F4FA;
+  background-color: #f5f4fa;
 }
 .team .section-title {
   color: var(--title-text-color);
@@ -182,7 +183,6 @@ h3 {
 }
 .team-list .text {
   color: #757575;
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.18;
   text-align: center;
@@ -202,14 +202,13 @@ h3 {
 }
 .filter-list .text {
   color: #757575;
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.87;
 }
 
 /* Adress */
 .section {
-    background-color: #2F303A;
+  background-color: #2f303a;
 }
 .address-list .address-link {
   color: #ffffff;
